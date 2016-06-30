@@ -5,12 +5,12 @@ s.ios.deployment_target = '8.0'
 s.name = "LavaSDK"
 s.summary = "LavaSDK for Sports"
 s.requires_arc = true
-s.version = "0.12.0"
+s.version = "0.13.0"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "sharath" => "sharath@codecraft.co.in" }
 s.homepage = "http://codecraft.co.in"
-s.source = { :git => "https://github.com/sharathshenoy/LavaSDK.git", :tag => "0.12.0"}
-s.source_files = 'LavaSDK.framework'
+s.source = { :git => "https://github.com/sharathshenoy/LavaSDK.git", :tag => "0.13.0"}
+s.source_files = 'LavaSDK.framework/*'
 s.dependency 'XMPPFramework'
 s.dependency 'Alamofire'
 s.dependency 'AlamofireObjectMapper'
